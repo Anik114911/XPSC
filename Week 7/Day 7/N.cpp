@@ -44,7 +44,6 @@ int main(){
         if(small.empty()) small.push(n+1);
         for(int i=(n-m+2);i<n;i++){
             v.push_back(a[i]);
-
         }
         if(v.size() < n) v.push_back(small.top());
         for(int i=0;i<n;i++){
