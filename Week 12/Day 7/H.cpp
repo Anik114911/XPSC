@@ -46,7 +46,6 @@ Infinite Void() {
                 idx = i;
             }
         }
-        // cout << idx << endl;
         cout << a[idx-1] << " ";
         for(int i=idx+1;i<n;i++) cout << a[i] << " ";
         for(int i=0;i<idx-1;i++) cout << a[i] << " ";
