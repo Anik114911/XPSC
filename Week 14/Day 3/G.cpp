@@ -24,7 +24,7 @@ using namespace std;
 using namespace __gnu_pbds;
 template <typename T> using pbds = tree<T, null_type, less<T>, rb_tree_tag,tree_order_statistics_node_update>;
 int mn = INT_MAX;
-Infinite dfs(int root, vector<pair<int,int>> &tree, string &s, int cnt){
+void dfs(int root, vector<pair<int,int>> &tree, string &s, int cnt){
     pair<int,int> p = tree[root];
     int left = p.first;
     int right = p.second;
